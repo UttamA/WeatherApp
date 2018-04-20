@@ -28,6 +28,7 @@ public class GsonRequest<T> extends Request<T> {
         this.listener = listener;
         this.mParams = params;
         this.mContentType = contentType;
+        
     }
 
     @Override
